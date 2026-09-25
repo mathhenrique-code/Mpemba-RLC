@@ -1,0 +1,73 @@
+{
+  "constants": {
+    "L_H": 0.0444,
+    "C_F": 0.000454,
+    "R_ext_ohm": 22.2,
+    "R_component_ohm": 27.9,
+    "deterministic_release_ms": 7.2
+  },
+  "conventions": {
+    "current": "I_A = -Vr_V / R_ext_ohm",
+    "dynamical_resistance": "R_component_ohm is separate from R_ext_ohm; no fitted R_dyn is substituted here",
+    "noisy_time_origin": "raw oscilloscope time axis retained",
+    "covariance": "finite-N covariance uses 1/N",
+    "run_spread": "sample standard deviation uses ddof=1",
+    "noise_interpretation": "continuous engineered AWGN; no effective temperature inferred"
+  },
+  "deterministic": {
+    "fast": {
+      "source_file": "arapido_02(1).csv",
+      "sha256": "d50a2734323da7fea117e1c391a0efd80d66999160966496484792df3bd5a887",
+      "n_points": 2500,
+      "dt_s": 3.999999899e-05,
+      "raw_time_range_s": [
+        -0.049999998737499995,
+        0.049959998738509995
+      ],
+      "release_sample_index": 1430,
+      "release_sample_time_s": -1.818000004011333e-10,
+      "E_release_nearest_J": 0.0019927391350184876
+    },
+    "slow": {
+      "source_file": "alento_02(1).csv",
+      "sha256": "7b420f0eabbaa7869304a235faa53029a78e40accf54d64ddfdfe884d53958d9",
+      "n_points": 2500,
+      "dt_s": 0.0003999999899,
+      "raw_time_range_s": [
+        -0.500000027374999,
+        0.49959994738510105
+      ],
+      "release_sample_index": 1268,
+      "release_sample_time_s": -4.0181798979278815e-08,
+      "E_release_nearest_J": 0.00021994840840557908
+    }
+  },
+  "noiseless_crossing_ms": 1.8982502911149175,
+  "noiseless_crossing_energy_uJ": 165.8623211886656,
+  "noisy": {
+    "n_fast": 10,
+    "n_slow": 10,
+    "crossing_ms": 1.5511086311813365,
+    "crossing_energy_uJ": 51.577938838620675,
+    "bootstrap_seed": 20260908,
+    "bootstrap_replicates": 50000,
+    "bootstrap_95_ms": [
+      1.4681011802359614,
+      1.6206648297286916
+    ],
+    "late_fast_covariance_fraction": 0.9017713033056958,
+    "late_slow_covariance_fraction": 0.8756769646625443,
+    "moment_closure_max_J": {
+      "fast": 1.3658406274475593e-19,
+      "slow": 5.505714157152952e-20
+    }
+  },
+  "raw_archive": {
+    "noiseless_zip_members": [],
+    "noise_file_count": 20
+  },
+  "input_hashes": {
+    "alento_02(1).csv": "7b420f0eabbaa7869304a235faa53029a78e40accf54d64ddfdfe884d53958d9",
+    "arapido_02(1).csv": "d50a2734323da7fea117e1c391a0efd80d66999160966496484792df3bd5a887"
+  }
+}

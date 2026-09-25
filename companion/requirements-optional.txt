@@ -1,0 +1,2 @@
+# Optional publication-style typography
+scienceplots>=2.1

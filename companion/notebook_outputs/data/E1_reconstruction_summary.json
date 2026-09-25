@@ -1,0 +1,52 @@
+{
+  "constants": {
+    "L_H": 0.0444,
+    "C_F": 0.000454,
+    "R_ext_ohm": 22.2,
+    "R_component_ohm": 27.9,
+    "deterministic_release_ms": 7.2
+  },
+  "deterministic_crossing_ms": 1.8982502911149175,
+  "deterministic_crossing_energy_uJ": 165.8623211886656,
+  "noisy_crossing_ms": 1.5511086311813365,
+  "bootstrap_seed": 20260908,
+  "bootstrap_replicates": 50000,
+  "bootstrap_95_ms": [
+    1.4681011802359614,
+    1.6206648297286916
+  ],
+  "late_covariance_fraction": {
+    "fast": 0.9017713033056958,
+    "slow": 0.8756769646625443
+  },
+  "moment_closure_max_J": {
+    "fast": 1.3658406274475593e-19,
+    "slow": 5.505714157152952e-20
+  },
+  "deterministic_input_hashes": {
+    "fast": "d50a2734323da7fea117e1c391a0efd80d66999160966496484792df3bd5a887",
+    "slow": "7b420f0eabbaa7869304a235faa53029a78e40accf54d64ddfdfe884d53958d9"
+  },
+  "noise_file_hashes": {
+    "rapido1.csv": "6981f73085f70452dbf4f44d58e6797c57ce980fa1bff4d8f6da6bbc3b371048",
+    "rapido2.csv": "efaf8aeaa5a5d2812675eb8f16c2572db57e3eadccaa66792127d48ee691e8c6",
+    "rapido3.csv": "9b129bcf8fbcf5ae4b095f834eb7b4fad9f5ef74a338be5d34a3f5ff4b0bef5d",
+    "rapido4.csv": "d31fcc7dc55b9f47a52634ec0df0e9caab9f439d7e4cad0d8aa08dae8255ebc4",
+    "rapido5.csv": "7833c9693cea2e23c7c8a319e0d052478d3a1507dd1ee31854d7d6fa7c0dbbfb",
+    "rapido6.csv": "5bf5f39d0a4a8d3887963072fd13b05aba78f132da66e1378cb402b25c3c8a9b",
+    "rapido7.csv": "603a27268d82dcbb3a6414cb488cdf064ee03f36b8d645bb62bdf8bb6089c611",
+    "rapido8.csv": "1b0f7da502c4a3e56a1296c9322307b08bf032b5a8d11fdd6bb98f26308e15b2",
+    "rapido9.csv": "efc4e673cf0299c75a15f5efd8c62b8af41ead8d07dbe2fc4dd8e0ea6886061d",
+    "rapido10.csv": "6e9f984f31a30242c3d7a99ddf091cccddd9f7df2bc58a68ed463bb31ca0f9c6",
+    "lento1.csv": "8a8f324bb9f46eb229957a34d8e341d1dd46a55adcc809c3bc39470f8e2ee44b",
+    "lento2.csv": "528ae18b448359cb75b2d2b7064138b24049b2e88757e2414cf1195fc5a2e226",
+    "lento3.csv": "6f9365defd5eb880d23235d258596d072b9ad2b16dd5deee5471f38dec37e845",
+    "lento4.csv": "7fa3854b39e4c99276184f45dc372ea85ef443d467f5fc12127bd713d8c58f2d",
+    "lento5.csv": "e39ec70aefd059215608c9d41a448744c01d7a8d67fbf92dde98b593a51ffad7",
+    "lento6.csv": "6774832c4c7b13e2e52ceb244c5bc744332f13c7246468bd64470e78d1e59494",
+    "lento7.csv": "cbe605c3a667761dbfb5fe9f07f26915589457cfdde29a6f045a1eadb7923219",
+    "lento8.csv": "c3328b23c2827135a895fff76ba26846c834149e2ba218b12274579b472dec91",
+    "lento9.csv": "6b8a3bf430720b02bdd560a3d32de87105e240be911f3ba001c22b006258f5b2",
+    "lento10.csv": "91bef6bece0fef141391b8f4cbc6003ca00454a4011cb9910bfe383f7b2e58cf"
+  }
+}
